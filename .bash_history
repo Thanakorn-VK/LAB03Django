@@ -27,3 +27,16 @@ source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-ol
 source <(egrep -v 'declare -x TMUX|declare -.?r ' /home/ubuntu/.tmux/sessions-old/y20xne9hr9c/vars.txt) && cd ${PWD}
 python3 manage.py runserver
 git status
+git add --all
+git status
+git commit -m "Changed the HTML for the site"
+git push
+python manage.py shell
+python3 manage.py runserver
+python manage.py collectstatic
+python3 manage.py runserver
+python manage.py collectstatic
+python3 manage.py runserver
+git status
+git commit -m "CSS"
+git push
