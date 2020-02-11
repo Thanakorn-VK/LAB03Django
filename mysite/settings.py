@@ -25,7 +25,7 @@ SECRET_KEY = 'cadvnc!)zzz%hu_2ixy^c$(8@k#=so&z_=!7$7a(#^e0+kc0hw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost-thanakorn-viengkae-1.paiza-user-free.cloud']
+ALLOWED_HOSTS = ['127.0.0.1','localhost-thanakorn-viengkae-1.paiza-user-free.cloud']
 
 
 # Application definition
